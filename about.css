@@ -1,0 +1,90 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a0c1e9;
+}
+
+header {
+    background-color: #a3c3eb;
+    padding: 20px;
+    text-align: center; 
+    position: fixed; /* Fixed position */
+    width: 100%; /* Take up full width */
+    top: 0; /* Stick to the top */
+    z-index: 1000; /* Ensure it's above other content */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-right: 100px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 100;
+    font-size: 1.3rem; /* Larger font size */
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #d4e6fd; /* Hover color */
+}
+
+.about-section {
+    background: linear-gradient(to right, rgba(143, 179, 224, 0.8), rgba(255, 255, 255, 0.8)), url('Images/port-image.jpg') center/cover no-repeat;
+    padding-top: 80px; /* Adjust top padding to accommodate fixed navigation bar */
+}
+
+.about-content {
+    width: 80%;
+    max-width: 1200px;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    margin: 50px auto; /* Center the content */
+}
+
+.about-content h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.about-paragraph {
+    margin-bottom: 20px;
+}
+
+.about-paragraph h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.about-paragraph p {
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+    color: #555;
+    text-align: justify;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #4779c4; /* Same background color as the home page */
+    color: #fff;
+}

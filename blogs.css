@@ -1,0 +1,131 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a0c1e9;
+}
+
+header {
+    background-color: #a3c3eb;
+    padding: 20px;
+    text-align: center; 
+    position: fixed; /* Fixed position */
+    width: 100%; /* Take up full width */
+    top: 0; /* Stick to the top */
+    z-index: 1000; /* Ensure it's above other content */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-right: 100px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 100;
+    font-size: 1.3rem; /* Larger font size */
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #d4e6fd; /* Hover color */
+}
+
+.posts-section {
+    background: linear-gradient(to right, rgba(143, 179, 224, 0.8), rgba(255, 255, 255, 0.8)), url('Images/port-image.jpg') center/cover no-repeat;
+    padding-top: 80px; /* Adjust top padding to accommodate fixed navigation bar */
+}
+
+.post-content {
+    width: 80%;
+    max-width: 1200px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    margin: 0 auto; /* Center the content */
+}
+
+.post-content h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.post-content p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+    text-align: justify;
+}
+
+.post {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.post:hover {
+    background-color: #f2f2f2; /* Highlight color on hover */
+}
+
+.post-title {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.post-image {
+    border-radius: 6px;
+    height: 500px;
+    width: 1000px;
+    margin-bottom: 50px;
+}
+
+.post-summary {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.post-full-content {
+    display: none; /* Initially hide full content */
+}
+
+.post-full-content img {
+    max-width: 100%; /* Ensure images don't exceed container width */
+}
+
+.post-full-content p {
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+    color: #555;
+}
+.post-full-content h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #95bdf8; /* Same background color as the home page */
+    color: #fff;
+}
