@@ -1,4 +1,3 @@
-/* Reset CSS */
 * {
     margin: 0;
     padding: 0;
@@ -7,13 +6,13 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #a0c1e9; /* Lighter primary color */
+    background-color: #a0c1e9; 
 }
 
 header {
-    background-color: #a3c3eb; /* Lighter primary color */
+    background-color: #a3c3eb; 
     padding: 20px;
-    text-align: center; /* Center the navigation bar */
+    text-align: center; 
 }
 
 .nav-links {
@@ -32,12 +31,12 @@ header {
     text-decoration: none;
     color: #fff;
     font-weight: 100;
-    font-size: 1.3rem; /* Larger font size */
+    font-size: 1.3rem;
     transition: color 0.3s ease;
 }
 
 .nav-links li a:hover {
-    color: #d4e6fd; /* Hover color */
+    color: #d4e6fd;
 }
 
 .hero-section {
@@ -55,7 +54,7 @@ header {
     align-items: center;
     width: 80%;
     max-width: 1200px;
-    background-color: rgba(255, 255, 255, 1); /* Adjust the opacity (0.3 in this case) */
+    background-color: rgba(255, 255, 255, 0.8); 
     padding: 30px;
     border-radius: 20px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
@@ -87,7 +86,7 @@ header {
 }
 
 .social-icons ul li a {
-    color: #4779c4; /* Darker primary color */
+    color: #4779c4; 
     font-size: 1.5rem;
     transition: color 0.3s ease;
 }
@@ -105,12 +104,13 @@ header {
     font-size: 1.2rem;
     color: #555;
     margin-bottom: 20px;
+    text-align: justify;
 }
 
 .btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #7cb5ec; /* Button color */
+    background-color: #7cb5ec; 
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -118,12 +118,12 @@ header {
 }
 
 .btn:hover {
-    background-color: #4779c4; /* Hover color */
+    background-color: #4779c4; 
 }
 
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #8fb3e0; /* Lighter primary color */
+    background-color: #8fb3e0; 
     color: #fff;
 }
